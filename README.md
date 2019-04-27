@@ -6,6 +6,7 @@ Code demos sample approach to returning user and phone data with some limited au
 ####STARTING####
 
 To start app, npm install required dependencies.
+Create .env file at source of folder to hold your own secret phrase and account info.  ENV file should contain(SECRET_PHRASE, USERPOOL, CLIENT_ID)
 After packages are installed, run command *NPM RUN FULL* to start up json-server and main server
 in different threads.
 
