@@ -1,0 +1,21 @@
+Task: 
+Create REST API that returns phone and user inforamtion when requested.
+
+Approach:
+I choose to use json-server to simulate calls to a db since it fast and requires no real configuration.
+I created routes using express.Router to simulate the creation and request of data.
+I created helper two functions to try and validate some of the possible information that 
+could be submitted.
+
+Limitations:
+Although I tried to write good code, with more time I would add more testing around routes, 
+and also around the requirements to create new information.
+Additionally, the JWT token used for validation rely on a stock secert phrase.
+
+Ways to Improve:
+Much of the phone and user code mirrors each other, as an improvement I could refactor the validate functions so they can be shared.  
+With more time I would explore the use of AWS services.
+I would use cognito to validate used information which could be added to entries with 
+new phones.  That data could be used to create update methods for user created items.  As an addon, AWS could also be used as a db with the RDS.  Or mongo or other types of db services could be used. 
+I would also improve the way the JWT token is written to request use specific tokens 
+based on personal info.
