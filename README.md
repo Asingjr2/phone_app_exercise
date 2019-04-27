@@ -13,7 +13,7 @@ in different threads.
 
 ### DOCUMENTATION
 
-```This app used a few key libraries to include: 
-- [json-server](https://www.npmjs.com/package/json-server)
-- [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
-```
+This app used a few key libraries to include: 
+ [json-server](https://www.npmjs.com/package/json-server)
+
+ [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
